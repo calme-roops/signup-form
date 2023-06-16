@@ -1,5 +1,79 @@
-* {
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*,
+*::before,
+*::after {
+    font-family: 'Chelsea Market', cursive;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+
+.content {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+p {
+    font-size: x-large;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+
+fieldset{
+    display: grid;
+    border: purple 5px double;
+    width: 48vw;
+    grid-template-columns: auto auto;
+    gap: 30px
+}
+
+label, button{
+    display: flex;
+    margin: 5px 0 5px 15px;
+    font-size: large;
+}
+
+input {
+    margin-left: 20px;
+}
+
+legend {
+    margin-left: 7.5px;
+    font-size: xx-large;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    width: 180px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    border: black 2px solid;
+    background-color: rgb(225, 84, 225);
+}
+
+.graphic {
+    background-color: purple;
+    border-radius: 0 30% 30% 0;
+    height: 100vh;
+    width: 45vw;
+}
+
+img {
+    height: 90vh;
+    width: 35vw;
 }
