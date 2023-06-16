@@ -11,40 +11,44 @@
         <div class="graphic">
             <img src="imgnormal.svg" alt="https://www.figma.com/@iamdebaratna">
         </div>
-        <div class="main">
+        <div class="content">
             <section class="description">
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
                 <br>
                 <p>You know you want to.</p>
                 <br>
             </section>
-            <form action="POST">
-                <div class="fn">
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first-name" required>
-                </div>
-                <div class="ln">
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last-name">
-                </div>
-                <div class="email">
-                    <label for="email_id">E-MAIL</label>
-                    <input type="email" name="email" id="email_id">
-                </div>
-                <div class="phonenum">
-                    <label for="phone_num">PHONE NUMBER</label>
-                    <input type="number" name="phone number" id="phone_num">
-                </div>
-                <div class="pass">
-                    <label for="pass_word">PASSWORD</label>
-                    <input type="password" name="password" id="pass_word" minlength="8">
-                </div>
-                <div class="confirm_pass">
-                    <label for="confirm_pass_word">CONFIRM PASSWORD</label>
-                    <input type="password" name="re-password" id="confirm_pass_word">
-                </div>
-    
-                <button type="submit">Create Account</button>
+            <form class="form" action="POST">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div class="fn">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first-name" required>
+                    </div>
+                    <div class="ln">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last-name">
+                    </div>
+                    <div class="email">
+                        <label for="email_id">E-MAIL</label>
+                        <input type="email" name="email" id="email_id">
+                    </div>
+                    <div class="phonenum">
+                        <label for="phone_num">PHONE NUMBER</label>
+                        <input type="number" name="phone number" id="phone_num">
+                    </div>
+                    <div class="pass">
+                        <label for="pass_word">PASSWORD</label>
+                        <input type="password" name="password" id="pass_word" minlength="8">
+                    </div>
+                    <div class="confirm_pass">
+                        <label for="confirm_pass_word">CONFIRM PASSWORD</label>
+                        <input type="password" name="re-password" id="confirm_pass_word">
+                    </div>
+                    <div>
+                        <input type="submit" value="Create Account">
+                    </div>
+                </fieldset>
             </form>
         </div>
     </main>
