@@ -6,12 +6,12 @@ const image = document.querySelector('.image'),
 
 image.addEventListener('mouseover', () => {
     image.removeAttribute('src')
-    image.setAttribute('src', '/imghover.svg')
+    image.setAttribute('src', 'imghover.svg')
 })
 
 image.addEventListener('mouseout', () => {
     image.removeAttribute('src')
-    image.setAttribute('src', '/imgnormal.svg')
+    image.setAttribute('src', 'imgnormal.svg')
 })
 
 
