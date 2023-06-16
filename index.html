@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Sign-Up Form</title>
 </head>
 <body>
     <main>
         <div class="graphic">
-            <img src="imgnormal.svg" alt="https://www.figma.com/@iamdebaratna">
+            <img class="image" src="imgnormal.svg" alt="https://www.figma.com/@iamdebaratna">
+            <img class="icon" src="/icon.svg">
+            <p class="icon2">PUDDLES</p>
         </div>
         <div class="content">
             <section class="description">
@@ -27,23 +30,23 @@
                     </div>
                     <div class="ln">
                         <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last-name">
+                        <input type="text" id="last_name" name="last-name" required>
                     </div>
                     <div class="email">
                         <label for="email_id">E-MAIL</label>
-                        <input type="email" name="email" id="email_id">
+                        <input type="email" name="email" id="email_id" required>
                     </div>
                     <div class="phonenum">
                         <label for="phone_num">PHONE NUMBER</label>
-                        <input type="number" name="phone number" id="phone_num">
+                        <input type="tel" name="phone number" id="phone_num">
                     </div>
                     <div class="pass">
                         <label for="pass_word">PASSWORD</label>
-                        <input type="password" name="password" id="pass_word" minlength="8">
+                        <input type="password" name="password" id="pass_word" minlength="8" required>
                     </div>
                     <div class="confirm_pass">
                         <label for="confirm_pass_word">CONFIRM PASSWORD</label>
-                        <input type="password" name="re-password" id="confirm_pass_word">
+                        <input type="password" name="re-password" id="confirm_pass_word" minlength="8" required>
                     </div>
                     <div>
                         <input type="submit" value="Create Account">
