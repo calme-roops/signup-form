@@ -29,7 +29,7 @@ main {
     width: 45vw;
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 3rem;
 }
 
 p {
@@ -43,7 +43,7 @@ fieldset{
     border: purple 5px double;
     width: 48vw;
     grid-template-columns: auto auto;
-    gap: 30px
+    gap: 1rem;
 }
 
 label, button{
@@ -57,15 +57,15 @@ input {
 }
 
 legend {
-    margin-left: 7.5px;
+    margin-left: 1rem;
     font-size: xx-large;
 }
 
 input[type="submit"] {
     cursor: pointer;
-    padding: 10px;
-    width: 180px;
-    margin-bottom: 25px;
+    padding: 0.7rem;
+    width: 12rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-weight: bolder;
     letter-spacing: .2rem;
@@ -86,7 +86,7 @@ img {
 }
 
 .icon {
-    position: fixed;
+    position: static;
     left: 4.1vh;
     top: 16.5vh;
     width: 10vw;
@@ -94,10 +94,10 @@ img {
 }
 
 .icon2 {
-    position: fixed;
+    position: absolute;
     left: 17.5vh;
     top: 18.5vh;
-    font-size: 50px;
+    font-size: 3rem;
     text-decoration-line: overline;
 }
 
@@ -122,12 +122,12 @@ img[class="image"]:hover {
     font-size: small;
     color: darkred;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 1.5rem;
 }
 
 #no_error {
     font-size: small;
     color: green;
     font-weight: 700;
-    margin-left: 20px;
+    margin-left: 1.5rem;
 }
