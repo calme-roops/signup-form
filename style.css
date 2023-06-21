@@ -86,7 +86,7 @@ img {
 }
 
 .icon {
-    position: static;
+    position: absolute;
     left: 4.1vh;
     top: 16.5vh;
     width: 10vw;
